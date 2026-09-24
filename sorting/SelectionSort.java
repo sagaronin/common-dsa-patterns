@@ -7,6 +7,13 @@ class SelectionSort{
         // int arr[] = {13,46,24,52,20,9};
         int arr[] = {7,4,1,5,3};
         selectionSort(arr);
+        //Time complexity: 
+        //first pass: n
+        //second pass: n-1
+        //third pass: n-2...
+        // Basically n+(n-1)+(n-2)+....+2 = summation of n natural numbers
+        //n*(n+1)/2 ~= O(n^2)
+        //Space complexity: O(1)
 
     }
     public static void selectionSort(int arr[]){
